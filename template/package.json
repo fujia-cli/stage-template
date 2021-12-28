@@ -1,18 +1,12 @@
 {
   "name": "<%= packageName %>",
   "version": "<%= version %>",
-  "description": "A template for creating stage template quickly",
-  "keywords": [
-    "template",
-    "stage"
-  ],
+  "description": "",
+  "keywords": [],
   "scripts": {
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "template"
-  ],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
