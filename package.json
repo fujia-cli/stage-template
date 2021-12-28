@@ -26,6 +26,10 @@
     "url": "https://github.com/fushenguang",
     "email": "fujia.site@outlook.com"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
