@@ -1,0 +1,35 @@
+{
+  "name": "<%= packageName %>",
+  "version": "<%= version %>",
+  "description": "A template for creating stage template quickly",
+  "keywords": [
+    "template",
+    "stage"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "template"
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "",
+    "url": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
